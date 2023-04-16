@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
-""" 
-Hypermedia pagination
+""" Hypermedia pagination
 """
 
 import csv
@@ -9,8 +8,7 @@ from typing import Dict, List, Tuple, Any
 
 
 class Server:
-    """
-    Server class to paginate a database of popular baby names.
+    """Server class to paginate a database of popular baby names.
     """
     DATA_FILE = "Popular_Baby_Names.csv"
 
