@@ -8,7 +8,6 @@ class LRUCache(BaseCaching):
     """
     lru caching system
     """
-
     def __init__(self):
         """
         Initialize the init method
@@ -18,7 +17,7 @@ class LRUCache(BaseCaching):
 
     def put(self, key, item):
         """
-        Cache a key
+        Cache a key-value
         """
         if key is None or item is None:
             pass
