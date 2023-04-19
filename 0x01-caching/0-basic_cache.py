@@ -8,17 +8,21 @@ class BasicCache(BaseCaching):
     """
     BasicCache system
     """
+    
+    
+    
+    
+    
     def __init__(self):
         """
         Initialize the init method
         """
-        super().__init__()
-        self.usage = []
+        BaseCaching.__init__(self)
 
     def put(self, key, item):
         """
         Cache a key-value 
-        methords;
+        methords
                key = description
                item = description
         """
