@@ -8,11 +8,6 @@ class BasicCache(BaseCaching):
     """
     BasicCache system
     """
-    
-    
-    
-    
-    
     def __init__(self):
         """
         Initialize the init method
@@ -22,9 +17,6 @@ class BasicCache(BaseCaching):
     def put(self, key, item):
         """
         Cache a key-value 
-        methords
-               key = description
-               item = description
         """
         if key is None or item is None:
             pass
