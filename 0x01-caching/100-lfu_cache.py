@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-
+"""base caching module
+"""
 from base_caching import BaseCahing
 
 
@@ -10,7 +11,7 @@ class LFUCache(BaseCahing):
         get(key): gets the key from cache
     """
     
-    def __init__(self) -> None:
+    def __init__(self):
         """ init object"""
         super().__init__()
         self.uses = dict()
